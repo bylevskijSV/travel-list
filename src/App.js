@@ -128,7 +128,7 @@ function Stats({ items }) {
       <em>
         {percPacked === 100
           ? "You got everything! Ready to go ✈"
-          : `💼 You have {numItems} items on your list, and you already packed{" "}
+          : `💼 You have ${numItems} items on your list, and you already packed${" "}
         ${numPacked} (${percPacked}%)`}
       </em>
     </footer>
